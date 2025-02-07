@@ -16,7 +16,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://expen-track-backend.vercel.app",
+      "https://expen-track-frontend.vercel.app",
       "http://localhost:5173",
     ],
     credentials: true,
